@@ -1,4 +1,7 @@
 #creating file in github and git pull done with it and redirected to hello.txt
+if [ -d .git ]; then
+	echo "this is not git repo"
+else
 git clone 
 cd repo/
 ls 
